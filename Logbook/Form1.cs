@@ -25,7 +25,7 @@ namespace LoginPanel
             if (Male.Checked)
                 user.gender = "Male";
             else
-                user.gender = "FeMale";
+                user.gender = "Female";
 
             int i = 1;
             var xml = new XmlSerializer(typeof(User));
